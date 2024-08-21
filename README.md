@@ -1,11 +1,12 @@
 # Course-Allocation-Automation
 
 This repository contains a Java program designed to automate course allocation based on students' CGPA and subject preferences. The program reads student data from CSV files, processes the data by sorting students, filtering subjects based on popularity, and assigning students to classes. The results are saved into CSV files for further review.
-
+## NOTE
+Currently works for 3 subject in 3 classes.
 ## Features
 
 - Reads student CGPA and course preferences from CSV files/EXCEL SHEET.
-- Assigns students to classes based on their CGPA, preferences and subject popularity.
+- Assigns students to classes based on their CGPA, preferences and subject POPULARITY.
 - Supports dynamic adjustment based on class size and subject availability.
 - Outputs results to CSV files/EXCEL SHEET for easy data handling.
 
